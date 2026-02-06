@@ -1,6 +1,7 @@
 import pygame
 import random
 
+w, h = 400, 500
 screen = pygame.display.set_mode((w, h))
 clock = pygame.time.Clock()
 
@@ -51,5 +52,6 @@ while run:
 
     pygame.display.flip()
     clock.tick(60)
+
 
 pygame.quit()
