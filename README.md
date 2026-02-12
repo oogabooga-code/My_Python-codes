@@ -1,97 +1,38 @@
-# my_pygames
-# my_pygames
-this is my first game with pygame in python.
-- What is it about?
-- How does it work?
-- Do i need to download something?????
-  you dont to install anything. But you need to install pygame(that's it)
-  watch a tutorial that tells you how to install it
--please like it, i have even better games comming
+#Python
 
-  ___________________
-   All the stuff about it:
-  ___________________
+Have you ever thought of finding a code that creates a game?
+Or that can make files move to another place?
+Or that you can write stuff on it and it can tell you WHERE to GO?
 
-import pygame
-import random
-#you just import pygame and random for a lot of stuff.
+#You --> ( 'o')||I want to find a code that i can use to create a game||''''||Then go to My_Python-codes||(0-0 ) <--- Me
 
-pygame.init()
-#initialize pygame
+___________________________________
+What is My_Python-codes for? ? ?
+___________________________________
 
-#for screen
-screen = pygame.display.set_mode((w, h))
+My_Python-codes is used to show you codes that can make cool stuff and that you can acess it.
+You can see Python in My_Python-codes. So i use python.
 
-clock = pygame.time.Clock()
-#why "screen"? Its to adjust the width and the height of the screen
-#clock is for ticks.(its important for later)
+#('0') ('0') ('0') ('0') ('0') ('0') ('0') ('0') ('0') ('0') ('0') ('0')        ('-' ) ( '-') \('o' )/
+AND DO NOT ASK TO MAKE A CODE OUT OF SCRATCH OR SOMETHING ELSE THEN PYTHON!                 What are they talking about?
 
-run = True
-#True means that if the code is running(or the game is running) then this happens
+Like if you want to make a simple game of dodging the projectiles, i can do it if you ask me.
+but do not make it super complex like Zelda or Mario or Minecraft
 
-while run:
-    #you need to understand this.
-    for e in pygame.event.get():
-        if e.type == pygame.QUIT: run = False
-        #this means that if you press the x button that's up of your screen(not phones and other          stuff like that), you exit the game.
-#you understand this ok? 
-keys = pygame.key.get_pressed()
+_________________________________
+Shoud i use it?
+_________________________________
 
-#if you press that button, the game will stop
-if keys[pygame.K_ESCAPE]:
-    break
+Well if you want to...
 
-#you need to understand this or learn english better
-if keys[pygame.K_a]:
-    player.x -= 5
-if keys[pygame.K_d]:
-    player.x += 5
-if keys[pygame.K_w]:
-    player.y -= 5
-if keys[pygame.K_s]:
-    player.y += 5
+this is a game but its just an image. You can acces it in My_Python-codes
 
-#player = to all of this thing. w(width)-player.width with player.x
-player.x = max(0, min(w-player.width, player.x))
+<img width="626" height="833" alt="image" src="https://github.com/user-attachments/assets/3f7769b7-3725-423e-9934-da1cb188540c" />
 
-item.y += 5
-    #if the item.y is higher than the h(height)
-    if item.y > h:
-        #it will make the blocks spawn somewhere at the top of the screen
-        item.x = random.randint(0, w-20)
-        #i dont know
-        item.y = -20
-#if the player collides with the item
-if player.colliderect(item):
-        #s
-        score += 50
-        screen.blit(pygame.font.SysFont(None, 40).render(f"Score: {score}", True,<--- |   ((255,255,255)), (10,10))<--#this is also part of this--------------------------------|
-#to add the score with the type of font in pygame
+but pls like it. I worked hard for this (or didin't i...)
+anyways but i should consider using ||||||| Visual Studio code |||||||
 
-#to make the block spawn somewhere up
-item.x = random.randint(0, w-20)
-        item.y = -20
-        
-#its rgb for that line
-screen.fill((40,40,50))
-    #to draw the player and the blocks
-    pygame.draw.rect(screen, (0,200,255), player)
-    pygame.draw.rect(screen, (255,255,0), item)
-    screen.blit(font.render(f"Score: {score}", True, (255,255,255)), (10,10))
-
-#to update the whole thing(and i mean everything)
-  pygame.display.flip()
-  #for speed and the tick
-  clock.tick(60)
-
-#to leave pygame.
-  pygame.quit()
-
-  --------------------
-that's all. hope you will like my game!
-comment if you find some errors!
-  --------------------
-
-  ..YOU......................................................ME..
-  
-  /( 'o')\ :(i wonder if the game is good!) (Yes it is!): /(0-0 )\
+\(0-0 )/ /( 0o0)\
+\(0-0 )/ /( 0o0)\
+\(0-0 )/ /( 0o0)\
+\(0-0 )/ /( 0o0)\
